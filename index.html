@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Contact Us</h2>
+      </div>
+      <form id="myform" class="myform">
+        <div class="form-unit">
+          <label for="name">Nama</label>
+          <input type="text" id="name" placeholder="Type here" />
+          <small>isi namamu terlebih dahulu!</small>
+        </div>
+
+        <div class="form-unit">
+          <label for="name">Email</label>
+          <input type="email" id="email" placeholder="Type here" />
+          <small>isi email!</small>
+        </div>
+
+        <div class="form-unit">
+          <label for="name">Pesan</label>
+          <textarea id="message" rows="6" placeholder="Type here"></textarea>
+          <small>tulis pesan!</small>
+        </div>
+        <div class="center">
+          <button type="submit" class="btn-send">Send</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="contact.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
